@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-09 13:52:36.093551",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "prepared_for",
+  "prepared_by",
+  "prepared_on",
+  "project_name",
+  "project_title",
+  "column_break_sdpo",
+  "client_designation",
+  "client_organization",
+  "designation",
+  "organization",
+  "section_break_cdau",
+  "timeline",
+  "section_break_eaot",
+  "processes",
+  "section_break_egnv",
+  "deliverables",
+  "section_break_gwut",
+  "payment_terms",
+  "section_break_tsdu",
+  "accepted_and_agreed",
+  "section_break_enih",
+  "brilworks_signature",
+  "column_break_hnlu",
+  "client_signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "prepared_for",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Prepared for",
+   "options": "Client",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Link",
+   "label": "Prepared by",
+   "options": "Client",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prepared_on",
+   "fieldtype": "Date",
+   "label": "Prepared on",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Data",
+   "label": "Project Title"
+  },
+  {
+   "fetch_from": "prepared_for.designation",
+   "fieldname": "client_designation",
+   "fieldtype": "Data",
+   "label": "Client Designation"
+  },
+  {
+   "fetch_from": "prepared_for.organization",
+   "fieldname": "client_organization",
+   "fieldtype": "Data",
+   "label": "Client Organization"
+  },
+  {
+   "fieldname": "column_break_sdpo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "prepared_by.designation",
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fetch_from": "prepared_by.organization",
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "label": "Organization"
+  },
+  {
+   "fieldname": "section_break_cdau",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "timeline",
+   "fieldtype": "Text Editor",
+   "label": "Timeline"
+  },
+  {
+   "fieldname": "section_break_eaot",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "processes",
+   "fieldtype": "Text Editor",
+   "label": "Processes"
+  },
+  {
+   "fieldname": "section_break_egnv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "deliverables",
+   "fieldtype": "Text Editor",
+   "label": "Deliverables"
+  },
+  {
+   "fieldname": "section_break_gwut",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Text Editor",
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "section_break_tsdu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "accepted_and_agreed",
+   "fieldtype": "Text Editor",
+   "label": "Accepted and Agreed"
+  },
+  {
+   "fieldname": "section_break_enih",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hnlu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "brilworks_signature",
+   "fieldtype": "Signature",
+   "label": "On Behalf of Brilworks"
+  },
+  {
+   "fieldname": "client_signature",
+   "fieldtype": "Signature",
+   "label": "On Behalf of Client"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-09 16:10:59.564534",
+ "modified_by": "Administrator",
+ "module": "Scope of work",
+ "name": "Scope of work",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
