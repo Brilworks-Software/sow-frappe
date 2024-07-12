@@ -17,6 +17,20 @@
   "organization",
   "client_full_name",
   "full_name",
+  "section_break_ntxa",
+  "overview_of_the_project",
+  "section_break_vjwd",
+  "proposed_scope_of_work",
+  "section_break_bkqi",
+  "roadmap_for_the_project",
+  "section_break_stac",
+  "proposed_sprint_plan",
+  "section_break_ibmb",
+  "technology_stack_and_framework",
+  "section_break_irxk",
+  "proposed_team",
+  "section_break_odep",
+  "cost_estimation",
   "section_break_cdau",
   "timeline",
   "section_break_eaot",
@@ -25,6 +39,8 @@
   "deliverables",
   "section_break_gwut",
   "payment_terms",
+  "section_break_rjnq",
+  "indirect_and_third_party_service_cost",
   "section_break_tsdu",
   "accepted_and_agreed",
   "section_break_enih",
@@ -183,11 +199,83 @@
    "fieldname": "sending_to",
    "fieldtype": "Text Editor",
    "label": "Sending To"
+  },
+  {
+   "fieldname": "section_break_ntxa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overview_of_the_project",
+   "fieldtype": "Text Editor",
+   "label": "Overview Of The Project"
+  },
+  {
+   "fieldname": "section_break_vjwd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposed_scope_of_work",
+   "fieldtype": "Text Editor",
+   "label": "Proposed Scope Of Work"
+  },
+  {
+   "fieldname": "section_break_bkqi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "roadmap_for_the_project",
+   "fieldtype": "Text Editor",
+   "label": "Roadmap For The Project"
+  },
+  {
+   "fieldname": "section_break_stac",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposed_sprint_plan",
+   "fieldtype": "Text Editor",
+   "label": "Proposed Sprint Plan"
+  },
+  {
+   "fieldname": "section_break_ibmb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "technology_stack_and_framework",
+   "fieldtype": "Text Editor",
+   "label": "Technology Stack And Framework"
+  },
+  {
+   "fieldname": "section_break_irxk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposed_team",
+   "fieldtype": "Text Editor",
+   "label": "Proposed Team"
+  },
+  {
+   "fieldname": "section_break_odep",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost_estimation",
+   "fieldtype": "Text Editor",
+   "label": "Cost Estimation"
+  },
+  {
+   "fieldname": "section_break_rjnq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "indirect_and_third_party_service_cost",
+   "fieldtype": "Text Editor",
+   "label": "Indirect and Third Party Service Cost "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-12 14:43:05.033743",
+ "modified": "2024-07-12 16:11:23.252571",
  "modified_by": "Administrator",
  "module": "Scope of work",
  "name": "Project Proposal",
