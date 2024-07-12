@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "format: {first_name} {last_name}-{##}",
- "creation": "2024-07-03 17:08:52.739618",
+ "creation": "2024-07-12 12:21:31.725571",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -11,7 +11,7 @@
   "email",
   "designation",
   "organization",
-  "column_break_aguu",
+  "column_break_ehpb",
   "full_name"
  ],
  "fields": [
@@ -36,7 +36,7 @@
    "fieldname": "designation",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Designation "
+   "label": "Designation"
   },
   {
    "fieldname": "organization",
@@ -51,16 +51,16 @@
    "read_only": 1
   },
   {
-   "fieldname": "column_break_aguu",
+   "fieldname": "column_break_ehpb",
    "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-12 12:39:27.718070",
+ "modified": "2024-07-12 12:38:50.270500",
  "modified_by": "Administrator",
  "module": "Scope of work",
- "name": "Client",
+ "name": "Prepared By",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

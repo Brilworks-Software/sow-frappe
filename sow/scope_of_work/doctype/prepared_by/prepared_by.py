@@ -5,7 +5,7 @@
 from frappe.model.document import Document
 
 
-class Client(Document):
+class PreparedBy(Document):
 
 	def before_save(self):
 		fn = self.first_name if self.first_name is not None else ""

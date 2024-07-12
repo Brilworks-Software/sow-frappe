@@ -15,6 +15,8 @@
   "client_organization",
   "designation",
   "organization",
+  "client_full_name",
+  "full_name",
   "section_break_cdau",
   "timeline",
   "section_break_eaot",
@@ -26,8 +28,10 @@
   "section_break_tsdu",
   "accepted_and_agreed",
   "section_break_enih",
+  "sending_from",
   "brilworks_signature",
   "column_break_hnlu",
+  "sending_to",
   "client_signature"
  ],
  "fields": [
@@ -42,8 +46,9 @@
   {
    "fieldname": "prepared_by",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Prepared by",
-   "options": "Client",
+   "options": "Prepared By",
    "reqd": 1
   },
   {
@@ -55,6 +60,7 @@
   {
    "fieldname": "project_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Project Name",
    "reqd": 1
   },
@@ -153,11 +159,35 @@
    "fieldname": "client_signature",
    "fieldtype": "Signature",
    "label": "On Behalf of Client"
+  },
+  {
+   "fetch_from": "prepared_for.full_name",
+   "fieldname": "client_full_name",
+   "fieldtype": "Data",
+   "label": "Client Full Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "prepared_by.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sending_from",
+   "fieldtype": "Text Editor",
+   "label": "Sending From"
+  },
+  {
+   "fieldname": "sending_to",
+   "fieldtype": "Text Editor",
+   "label": "Sending To"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-09 16:10:59.564534",
+ "modified": "2024-07-12 14:43:05.033743",
  "modified_by": "Administrator",
  "module": "Scope of work",
  "name": "Project Proposal",
