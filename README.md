@@ -1,41 +1,26 @@
-### Scope of work
+# Scope of Work (SOW) — Frappe App
 
-Its helps to maintain the scop of work we given to the each client
+A Frappe framework application for managing and tracking Statements of Work across client engagements.
 
-### Installation
+## Features
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+- Create and manage SOW documents per client
+- Track deliverables, timelines, and status
+- Built on the Frappe/ERPNext ecosystem
+
+## Installation
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch main
-bench install-app sow
+bench get-app https://github.com/Brilworks-Software/sow-frappe
+bench --site your-site install-app sow-frappe
 ```
 
-### Contributing
+## Tech Stack
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+- **Framework:** Frappe
+- **Language:** Python, JavaScript
 
-```bash
-cd apps/sow
-pre-commit install
-```
+## License
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
-
-
-### License
-
-mit
+Proprietary — Brilworks Software
